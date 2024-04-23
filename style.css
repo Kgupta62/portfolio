@@ -1227,7 +1227,7 @@ html,body{
     }
     #circl{
         /* display: none; */
-        margin-left: 42vw;
+        margin-left: 50vw;
         /* background-color: var(--secondary-color); */
         color: var(--primary-color);
         display: flex;
