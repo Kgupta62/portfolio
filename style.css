@@ -892,7 +892,7 @@ html,body{
     
     #name2{
         color: var(--secondary-color);
-        font-size: 5.5vh;
+        font-size: 5vh;
         font-family: 'Open Sans', sans-serif;
         margin-top: 1vh;
         z-index: 99;
@@ -1035,12 +1035,12 @@ html,body{
     }
     #abo{
         min-height: 90vh;
-        width: 100vw;
+        min-width: 110vw;
         /* margin-top: 20vh; */
         position: absolute;
         top: 70vh;
         position: relative;
-        background-color: transparent;
+        background-color: var(--secondary-color) ;
        
     }
     #line1{
@@ -1091,7 +1091,7 @@ html,body{
     #side{
         min-width: 105vw;
         height: 70vh;
-     background-color: black;
+     background-color:var(--secondary-color);
         position: absolute;
         left: -30vh;
         top: -10vh;
@@ -1240,10 +1240,9 @@ html,body{
         margin-top: -3.2vh;
     }
     #dow{
-        background-color: aqua;
         margin-bottom: 13vh;
         margin-top: -20vh;
-        /* background-color: var(--secondary-color); */
+        background-color: var(--secondary-color);
         color:rgba(230, 226, 208, 0.612);
         display: flex;
         align-items: center;
@@ -1479,8 +1478,8 @@ html,body{
         height: 75vh;
         width: 100vw;
         margin-top: 11vh;
-        background-color: red;
-        /* background-color:var(--secondary-color); */
+        
+        background-color:var(--secondary-color);
            
     }
     .swiper {
@@ -1497,7 +1496,7 @@ html,body{
         font-size: 8px;
     }
     #landing1{
-        background-color: red;
+        
         width: 28vw;
         margin-left: 4vw;
         height: 30vh;
@@ -1555,7 +1554,6 @@ html,body{
     #python{
         width: 100vw;
         height: 100vh;
-        background-color: red;
     }
     #momo{
         position: absolute;
